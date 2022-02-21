@@ -1,0 +1,25 @@
+.text{
+    text-align: center;
+    }
+.text1{
+    text-align: left;
+    font-weight: bolder;
+}
+.button{
+    border: none;
+    font-size: 30px;
+    padding: 10px 5px 10px 5px;
+    border-radius: 10px;
+    border-radius: 0px 0 3px orange;
+    outline: none;
+    margin: 0 0 0 43%;
+    background-color: #d0b9d6;
+}
+.button:focus{
+    box-shadow: 0 0 10px rgb(230, 153, 39);
+}
+.button:hover{
+    color: rgb(141, 40, 3);
+    font-weight: bolder;
+
+}

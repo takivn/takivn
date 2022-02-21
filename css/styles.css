@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@600&family=Quicksand:wght@300;400;500&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    font-family:'Quicksand', sans-serif;
+    font-size: 20px;
+    background-color: rgb(236, 174, 116);
+}
+.menu {
+    height: 70px;
+    position: relative;
+    background-color: #d0b9d6;}
+.menu .logo{
+    position: absolute;
+    top :17px;
+    margin-left: 25px;}
+.menu .logo img{
+    width: 90px;
+}
+.header nav a{
+    font-size: large;}
+.menu nav{
+    position: absolute;
+    right: 10px;}
+.menu nav a{
+    text-decoration: none;
+    color:rgb(204, 82, 0);
+    line-height: 70px;
+    margin: 0px 30px ;
+    font-size: 25px;}
+.header{
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;}
+.menu a:hover {
+    background-color: rgb(172, 145, 179);
+    color: rgb(155, 45, 2);
+    padding: 10px;
+    font-weight: bold;}
+.banner{
+    width: 100%;
+}
+.banner img{
+    max-width: 100%;
+}
+.productidol{
+    text-align: center;}
+.productidol .heading{
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    margin: 40px 0;}
+.productidol .list .list-items{
+    width: 22%;  
+    margin: 20px 25px;
+    display: inline-block;
+    border-radius: 10px red;
+    border: 5px;}
+.list-items img{
+    max-width: 100%;
+    border: 10px; 
+ }
+.productidol .list .list-items:hover{
+    box-shadow:  1px 1px 1px 1px rgb(175, 85, 0);
+    color: #0a080a;}
+.list iframe{
+    width: 22%;  
+    height: 45%;
+    margin: 20px 25px;
+    display: inline-block;
+    border-radius: 10px red;
+    border: 5px;}
+.list iframe:hover{
+    box-shadow: 1px 1px 1px 1px rgb(175, 85, 0);}
+.footer {
+    width:100%;
+    color: black;
+    background-color: #d0b9d6;
+    padding: 10px;
+}
+    
+.footer .footer-items{
+    width: 30%;
+    display: inline-block;
+    margin: 10px;
+    text-align: left;
+}
+
+
+
+
